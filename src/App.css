@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  display: flex;
+ 
+}
+
+.Home {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+}
+
+.Shop {
+  width: 70%;
+  padding: 20px;
+  
+}
+.Home .Shop header{
+  display: flex;
+}
+.Home .Shop header span {
+  padding-left: 700px;
+}
+.Cart {
+  width: 30%;
+  padding: 20px;
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+  display: flex;
+  
+  margin-left: 250px;
+  width: 500px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.Phone {
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 50px;
+  
+
+
+}
+
+.phone-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.phone-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  display: flex;
+  
+}
